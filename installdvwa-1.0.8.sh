@@ -20,7 +20,7 @@ echo -n "[*] Unzipping DVWA..."
 unzip dvwa-1.0.7.zip > /dev/null
 echo -e "Done!\n"
 echo -n "[*] Deleting the zip file..."
-rm DVWA-1.0.8.zip > /dev/null
+rm dvwa-1.0.7.zip > /dev/null
 echo -e "Done!\n"
 echo -n "[*] Copying dvwa to root of Web Directory..."
 cp -R dvwa/* /var/www > /dev/null
