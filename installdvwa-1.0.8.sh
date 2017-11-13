@@ -1,6 +1,6 @@
 #/bin/bash
 
-echo -e "download with     wget --no-check-certificate -O installdvwa.sh  https://pastebin.com/raw/Fj8C5xYc >installdvwa.sh"
+echo -e "download with     wget --no-check-certificate -O dvwa-1.0.7.zip https://github.com/KevinCurran2/dvwa-108/blob/master/dvwa-1.0.7.zip?raw=true "
 echo -e "\n#######################################"
 echo -e "# Damn Vulnerable Web App Installer Script #"
 echo -e "#######################################"
@@ -14,10 +14,10 @@ echo -n "[*] Changing to Temp Directory..."
 cd /tmp
 echo -e "Done!\n"
 echo "[*] Downloading DVWA..."
-wget --no-check-certificate https://github.com/KevinCurran2/dvwa-108/blob/master/dvwa-1.0.7.zip ;
+wget --no-check-certificate -O dvwa-1.0.7.zip https://github.com/KevinCurran2/dvwa-108/blob/master/dvwa-1.0.7.zip?raw=true ;
 echo -e "Done!\n"
 echo -n "[*] Unzipping DVWA..."
-unzip DVWA-1.0.7.zip > /dev/null
+unzip dvwa-1.0.7.zip > /dev/null
 echo -e "Done!\n"
 echo -n "[*] Deleting the zip file..."
 rm DVWA-1.0.8.zip > /dev/null
