@@ -14,7 +14,7 @@ echo -n "[*] Changing to Temp Directory..."
 cd /tmp
 echo -e "Done!\n"
 echo "[*] Downloading DVWA..."
-wget --no-check-certificate -O dvwa-1.0.7.zip https://github.com/KevinCurran2/dvwa-108/blob/master/dvwa-1.0.7.zip?raw=true ;
+wget --no-check-certificate -O dvwa-1.0.7.zip https://raw.githubusercontent.com/KevinCurran2/dvwa-108/master/dvwa-1.0.7.zip ;
 echo -e "Done!\n"
 echo -n "[*] Unzipping DVWA..."
 unzip dvwa-1.0.7.zip > /dev/null
